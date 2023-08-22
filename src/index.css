@@ -1,0 +1,147 @@
+*{
+  /* font-family: 'Ranchers', cursive; */
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+  
+}
+body{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+
+/* Mobile  */
+@media screen and (max-width: 480px){
+  .cards-box{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    border-radius: 10px;
+    gap: 8%;
+    padding-bottom: 15px;
+  
+  }
+  .treat-card{
+    height: 40vh;
+    width: 20vw;
+   
+  }
+  img{
+    height: 20vh;
+    width: 20vw;
+  }
+
+  
+}
+
+/* Extra small devices  */
+@media (min-width: 481px) and (max-width: 767px){
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(3, 24%);
+    border-radius: 10px;
+    gap: 8%;
+    
+  }
+  .treat-card{
+    height: 40vh;
+    width: 22vw;
+  }
+  img{
+    height: 20vh;
+    width: 20vw;
+  }
+  .about-photo{
+    
+  }
+
+}
+
+/* Small Tablets */
+@media (min-width: 768px) and (max-width: 991px){
+
+  .cards-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 26%);
+    border-radius: 10px;
+    gap: 8%;
+  }
+  .treat-card{
+    height: 46vh;
+    width: 22vw;
+  }
+  img{
+    height: 35vh;
+    width: 35vw;
+  }
+
+}
+
+/* Large Tablets  */
+@media (min-width: 992px) and (max-width: 1199px){
+
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    border-radius: 10px;
+    gap: 7%;
+    
+  }
+  .treat-card{
+    height: 44vh;
+    width: 24vw;
+  }
+  img{
+    height: 40vh;
+    width: 40vw;
+  }
+}
+
+
+
+/* Destoks */
+@media (min-width: 1200px) and (max-width: 1919px){
+
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(3, 18%);
+    border-radius: 10px;
+    gap: 12%;
+    
+  }
+  .treat-card{
+    height: 50vh;
+    width: 24vw;
+   
+  }
+  img{
+    height: 50vh;
+    width: 50vw;
+  }
+  
+
+}
+
+/* Extra Large Screens */
+@media (min-width: 1920px) {
+
+  .cards-box{
+    display: grid;
+
+    grid-template-columns: repeat(3, 15%);
+    border-radius: 10px;
+    gap: 18%;
+   
+  }
+  .treat-card{
+    height: 45vh;
+    width: 28vw;
+  }
+  img{
+    height: 52vh;
+    width: 25vw;
+  }
+
+
+}
