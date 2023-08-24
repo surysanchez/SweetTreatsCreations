@@ -107,16 +107,66 @@ export const treats = [
       description: "",
       price: 5.85,
     },
-    // {
-    //   id: "13",
-    //   name: "Special Event Breakfast",
-    //   picture: "https://i.imgur.com/kmVPoYg.jpg",
-    //   height: "35px",
-    //   width: "35px",
-    //   description:
-    //     "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
-    //   price: 5.85,
-    // },
+    {
+      id: "13",
+      name: "Custom Cupcakes",
+      picture: "https://i.imgur.com/ueYkb1r.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
+    {
+      id: "13",
+      name: "Cheesecake cups",
+      picture: "https://i.imgur.com/QRv4kom.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
+    {
+      id: "13",
+      name: "Special Event Gift",
+      picture: "https://i.imgur.com/9554tty.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
+    {
+      id: "13",
+      name: "Custom Theme Lollipops",
+      picture: "https://i.imgur.com/tQR3tCL.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
+    {
+      id: "13",
+      name: "Cream filled cupcakes",
+      picture: "https://i.imgur.com/kABw4SY.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
+    {
+      id: "13",
+      name: "Mixed platter",
+      picture: "https://i.imgur.com/nFvp7Gb.jpg",
+      height: "35px",
+      width: "35px",
+      description:
+        "Our fresh, moist cake is formed into small spheres, before being given a delicious coating of chocolate. They are attached to lollipop sticks and are hand decorated.",
+      price: 5.85,
+    },
   ];
   
   export const size = ["round", "square", "heart-shape", "rectangular", "custom"];
@@ -227,36 +277,36 @@ export const treats = [
       price: 32.99,
     },
     {
-      name: `Gender Reveal Cake`,
-      picture: "https://i.imgur.com/92JTMZQ.jpg",
+      name: `Cream filled Red Velvet`,
+      picture: "https://i.imgur.com/vsFeyL0.jpg",
       size: size,
       flavour: flavour,
       filling: filling,
       price: 32.99,
     },
-    // {
-    //   name: `Gender Reveal Cake`,
-    //   picture: "https://i.imgur.com/ELdPnTr.jpg",
-    //   size: size,
-    //   flavour: flavour,
-    //   filling: filling,
-    //   price: 32.99,
-    // },
-    // {
-    //   name: `Gender Reveal Cake`,
-    //   picture: "https://i.imgur.com/ELdPnTr.jpg",
-    //   size: size,
-    //   flavour: flavour,
-    //   filling: filling,
-    //   price: 32.99,
-    // },
-    // {
-    //   name: `Gender Reveal Cake`,
-    //   picture: "https://i.imgur.com/ELdPnTr.jpg",
-    //   size: size,
-    //   flavour: flavour,
-    //   filling: filling,
-    //   price: 32.99,
-    // },
+    {
+      name: `Chocolate Cake`,
+      picture: "https://i.imgur.com/iYOXcSx.jpg",
+      size: size,
+      flavour: flavour,
+      filling: filling,
+      price: 32.99,
+    },
+    {
+      name: `Fruits Cake`,
+      picture: "https://i.imgur.com/7rA0Eba.jpg",
+      size: size,
+      flavour: flavour,
+      filling: filling,
+      price: 32.99,
+    },
+    {
+      name: `Customs Special Ocassion Cakes`,
+      picture: "https://i.imgur.com/vBCDE08.jpg",
+      size: size,
+      flavour: flavour,
+      filling: filling,
+      price: 32.99,
+    },
   ];
   
