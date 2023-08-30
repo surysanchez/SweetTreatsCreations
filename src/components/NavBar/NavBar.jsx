@@ -27,9 +27,13 @@ export default function NavBar({ user, setUser }) {
             <br />
             <p> <Nav.Link href="/cakes"  >Cakes Gallery</Nav.Link></p>
             &nbsp;
+            &nbsp;
              <p><Nav.Link href="/treats">Treats Gallery</Nav.Link></p>
              &nbsp;
+             &nbsp;
+             
               <p><Nav.Link href="/about">About us</Nav.Link></p>
+              &nbsp;
               &nbsp;
               <p><Nav.Link href="/contact">Contact us</Nav.Link></p>
 
