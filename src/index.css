@@ -3,6 +3,7 @@
   font-family: 'Luckiest Guy', cursive;
   color: black;
   
+  
 }
 body{
   display: flex;
@@ -30,7 +31,9 @@ body{
     height: 20vh;
     width: 20vw;
   }
-
+  p{
+    font-size: medium;
+  }
   
 }
 
@@ -51,8 +54,8 @@ body{
     height: 20vh;
     width: 20vw;
   }
-  .about-photo{
-    
+  p{
+    font-size:larger;
   }
 
 }
@@ -75,6 +78,16 @@ body{
     height: 35vh;
     width: 35vw;
   }
+  .about-photo{
+    display: grid;
+    height: 40vh;
+    width: 45vw;
+    justify-content:flex-end;
+    padding-left: 7%;
+  }
+  p{
+    font-size: x-large;
+  }
 
 }
 
@@ -95,6 +108,16 @@ body{
   img{
     height: 40vh;
     width: 40vw;
+  }
+  .about-photo{
+    display: grid;
+    height: 40vh;
+    width: 45vw;
+    justify-content:flex-end;
+    padding-left: 7%;
+  }
+  p{
+    font-size:x-large;
   }
 }
 
@@ -119,7 +142,16 @@ body{
     height: 50vh;
     width: 50vw;
   }
-  
+  .about-photo{
+    display: grid;
+    height: 40vh;
+    width: 45vw;
+    justify-content:flex-end;
+    padding-left: 7%;
+  }
+  p{
+    font-size:xx-large;
+  }
 
 }
 
@@ -142,6 +174,16 @@ body{
     height: 52vh;
     width: 25vw;
   }
+  .about-photo{
+    display: grid;
+    height: 40vh;
+    width: 45vw;
+    justify-content:flex-end;
+    padding-left: 7%;
+  }
 
+  p{
+    font-size: larger;
+  }
 
 }

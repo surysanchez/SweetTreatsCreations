@@ -38,7 +38,8 @@ export default function HomePage(){
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
+   
+  
     {/* <Figure className="flex">
       <Figure.Image
         width={300}
@@ -135,12 +136,7 @@ export default function HomePage(){
                             rel="noopener noreferrer" className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          {/* <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
-          </a> */}
-          {/* <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
-          </a> */}
+        
         </div>
       </section>
 
@@ -160,19 +156,17 @@ export default function HomePage(){
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
-                <a href='/ordertreats' className='text-reset'>
+                <a href='/treats' className='text-reset'>
                 Treats
                 </a>
               </p>
               <p>
-                <a href='/customtreat' className='text-reset'>
+                <a href='/cakes' className='text-reset'>
                   Cakes
                 </a>
               </p>
               <p>
-                <a href='/createOwn' className='text-reset'>
-                  Create your Cake Design
-                </a>
+              
               </p>
               {/* <p>
                 <a href='/authpage' className='text-reset'>

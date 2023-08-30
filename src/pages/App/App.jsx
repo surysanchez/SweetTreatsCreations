@@ -10,6 +10,7 @@ import ContactPage from '../ContactPage/ContactPage';
 import TreatsPage from '../TreatsPage/TreatsPage';
 import TreatDetailPage from '../TreatDetailPage/TreatDetailPage';
 
+
 export default function App() {
   return (
     <main className="App">
@@ -24,6 +25,8 @@ export default function App() {
             <Route path="/" element={<HomePage cakes={cakes} treats={treats} />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/" element={<HomePage  />} />
+
          
           </Routes>
       

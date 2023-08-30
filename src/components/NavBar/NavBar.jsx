@@ -25,19 +25,15 @@ export default function NavBar({ user, setUser }) {
               </Nav.Link>
             </Navbar.Brand>
             <br />
-            <Nav.Link href="/cakes">Cakes Gallery</Nav.Link>
-            <Nav.Link href="/treats">Treats Gallery</Nav.Link>
+            <p> <Nav.Link href="/cakes"  >Cakes Gallery</Nav.Link></p>
+            &nbsp;
+             <p><Nav.Link href="/treats">Treats Gallery</Nav.Link></p>
+             &nbsp;
+              <p><Nav.Link href="/about">About us</Nav.Link></p>
+              &nbsp;
+              <p><Nav.Link href="/contact">Contact us</Nav.Link></p>
 
-            <NavDropdown title="More" id="basic-nav-dropdown">
-         
-              <Nav.Link href="/about">About us</Nav.Link>
-              <Nav.Link href="/contact">Contact us</Nav.Link>
-
-              <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
-              <NavDropdown.Divider />
-            </NavDropdown>
-
-            
+           
           </Nav>
         </Navbar.Collapse>
       </Navbar>
