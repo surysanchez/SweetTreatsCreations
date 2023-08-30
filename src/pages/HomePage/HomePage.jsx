@@ -3,7 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBRow, MDBCol, MDBIcon , MDBBtn} from 'mdb-react-ui-kit';
 
 export default function HomePage(){
     return (
@@ -122,20 +123,27 @@ export default function HomePage(){
         </div>
 
         <div>
+        <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="instagram" />
+          </a>
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a> */}
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a> */}
+          
           <a href='https://www.tiktok.com/@sweet.treats.creation?_t=8cWqZ6QQbmd&_r=1 ' target="_blank"
                             rel="noopener noreferrer"className='me-4 text-reset'>
-            <MDBIcon fab icon="tiktok" />
+            <i class="bi bi-tiktok"></i>
           </a>
           <a href='https://www.instagram.com/sweet.treats.creation/' target="_blank"
                             rel="noopener noreferrer" className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
+
+          
+            <MDBIcon fab icon='instagram' />
         
         </div>
       </section>
