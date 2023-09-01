@@ -31,12 +31,16 @@ export default function HomePage(){
           src="https://i.imgur.com/plo9N1r.jpg" height= "450px" 
           alt=""
         />
-        <Carousel.Caption>
-         
-          <p>
-            
-          </p>
-        </Carousel.Caption>
+    
+      </Carousel.Item>
+      
+      <Carousel.Item interval={5000}>
+        <img
+          className="d-block w-100"
+          src="https://i.imgur.com/zdftF2I.jpg" height= "450px" 
+          alt=""
+        />
+    
       </Carousel.Item>
     </Carousel>
    
@@ -118,13 +122,15 @@ export default function HomePage(){
 
  <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
+        <div className='me-5 d-lg-block' >
           <span>Get connected with us on social networks:</span>
         </div>
+       
 
         <div>
-        <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
+        <a href='https://www.tiktok.com/@sweet.treats.creation?_t=8cWqZ6QQbmd&_r=1 ' target="_blank"
+                            rel="noopener noreferrer" className='me-4 text-reset'>
+            <MDBIcon fab icon="tiktok" />
           </a>
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
@@ -132,19 +138,11 @@ export default function HomePage(){
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a> */}
-          
-          <a href='https://www.tiktok.com/@sweet.treats.creation?_t=8cWqZ6QQbmd&_r=1 ' target="_blank"
-                            rel="noopener noreferrer"className='me-4 text-reset'>
-            <i class="bi bi-tiktok"></i>
-          </a>
           <a href='https://www.instagram.com/sweet.treats.creation/' target="_blank"
                             rel="noopener noreferrer" className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
 
-          
-            <MDBIcon fab icon='instagram' />
-        
         </div>
       </section>
 
@@ -165,32 +163,18 @@ export default function HomePage(){
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='/treats' className='text-reset'>
-                Treats
+                Treats Gallery
                 </a>
               </p>
               <p>
                 <a href='/cakes' className='text-reset'>
-                  Cakes
+                  Cakes Gallery
                 </a>
               </p>
               <p>
               
               </p>
-              {/* <p>
-                <a href='/authpage' className='text-reset'>
-                  Custom Treats
-                </a>
-              </p> */}
-              {/* <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
-              </p> */}
+             
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
@@ -226,7 +210,7 @@ export default function HomePage(){
              
 
               <p>
-                <MDBIcon icon="phone" className="me-3" />+1 123-456-7890
+                <MDBIcon icon="phone" className="me-3" /> 786-290-5662
               </p>
             
             </MDBCol>
