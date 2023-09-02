@@ -8,7 +8,7 @@ export default function ContactPage() {
       <Container fluid>
         <br />
         <h1>Contact us</h1>
-        <h2 class="mb-4">Let's get in touch</h2>
+        <h2 class="mb-4">Let's get in touch </h2>
         <Form
           action="https://getform.io/f/b12da849-c850-479e-9d92-3971380b9254"
           target="_blank"
