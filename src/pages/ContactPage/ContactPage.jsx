@@ -6,6 +6,7 @@ export default function ContactPage() {
   return (
     <>
       <Container fluid>
+        <br />
         <h1>Contact us</h1>
         <h2 class="mb-4">Let's get in touch</h2>
         <Form

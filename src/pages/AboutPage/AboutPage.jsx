@@ -5,6 +5,7 @@ export default function AboutPage(){
     return (
         <>
         <Container fluid >
+          <br />
         <h1>About us </h1>
         <Image className='about-photo' src="https://i.imgur.com/NvpemG9.jpg" alt="" fluid rounded />
         <br />
