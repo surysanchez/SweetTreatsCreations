@@ -64,6 +64,14 @@ export default function ContactPage() {
           <br />
           <Button type="submit">Send</Button>
         </Form>
+        <br />
+        <p>
+          Phone Number : <strong >786-290-5662 📲 📞</strong> 
+        </p>
+        <p>
+          Email : <strong> sweet.treats.creation1@gmail.com 📧</strong>
+        </p>
+        
       </Container>
     </>
   );

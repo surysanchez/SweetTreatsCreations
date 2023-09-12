@@ -22,3 +22,15 @@ Nav.Link{
   font-size: xx-large;
 }
   
+/* override bootstrap navbar colors */
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#efe9ed 0,#b03c7a 100%) !important; /* override background image gradient w/ flat color */
+}
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #0c0c0c !important;
+ font-family: 'Luckiest Guy', cursive;
+ font-size: larger;
+}
+
