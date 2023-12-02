@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 
 export default function CakeCard({cake}) {
   return (
-    <>
-      <Container fluid >
+  <>
+  <Container fluid >
         
         {/* <Link to={`/customtreat/${props.custom.name}`} className="treat-link"> */}
         <Card className="treat-card">
@@ -27,6 +27,7 @@ export default function CakeCard({cake}) {
           </Card.Body>
         </Card>
       </Container>
-    </>
+  </>
+      
   );
 }
